@@ -1,0 +1,6 @@
+{
+  "/chat/[roomName]/page": "app/chat/[roomName]/page.js",
+  "/todo/page": "app/todo/page.js",
+  "/page": "app/page.js",
+  "/chat/page": "app/chat/page.js"
+}
