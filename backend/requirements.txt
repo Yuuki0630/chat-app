@@ -1,0 +1,7 @@
+Django
+mysqlclient
+djangorestframework
+django-cors-headers
+channels
+channels_redis
+
