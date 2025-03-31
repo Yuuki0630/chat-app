@@ -1,2 +1,92 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
 frontend/next-app/node_modules
+frontend/next-app/.pnp
+frontend/next-app/.pnp.*
+frontend/next-app/.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+frontend/next-app/.next/
+frontend/next-app/out/
+
+# production
+frontend/next-app/build
+
+# misc
 .DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Pythonのキャッシュファイル
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# 環境設定ファイル（venv, virtualenv）
+venv/
+env/
+*.env
+*.venv
+
+# backend 内の環境設定ファイル（Django）
+backend/.env
+backend/config.json
+backend/*.secret
+
+# SQLiteデータベース（ローカル開発用）
+backend/db.sqlite3
+backend/db.sqlite3-journal
+
+# Djangoのmigrationsキャッシュ
+backend/**/migrations/__pycache__/
+backend/**/migrations/*.pyc
+
+# ログファイル
+logs/
+*.log
+*.out
+*.err
+
+# メディア/静的ファイル
+backend/media/
+backend/staticfiles/
+backend/static/
+
+# IDE・エディタの設定ファイル
+.vscode/
+.idea/
+*.iml
+
+# macOS特有のファイル
+.DS_Store
+
+# JetBrains PyCharm
+*.idea/
+
+# Docker関連の一時ファイル
+docker-compose.override.yml
+
